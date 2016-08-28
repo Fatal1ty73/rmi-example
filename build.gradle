@@ -1,0 +1,16 @@
+group 'ru.fatal1ty73'
+version '1.0-SNAPSHOT'
+apply plugin: 'application'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+mainClassName = "ru.fatal1ty73.server.ServerSide"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
